@@ -6,15 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <h1>Tic Tac Toe</h1>
-    <h2 class="player-print"></h2>
-    <h2 class="winner-print"></h2>
-    <div class="gameboard">
-
-    </div>
-    <button class="btn start-btn">start</button>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <main>
+        <h2 class="player-print"></h2>
+        <h2 class="winner-print"></h2>
+        <section class="board-score-section">
+            <p class="p-score-one"></p>
+            <div class="gameboard"></div>
+            <p class="p-score-two"></p>
+        </section>
+        <button class="btn reset-btn">Reset</button>
+    </main>
 <script src="script.js"></script>
 </body>
 </html>
